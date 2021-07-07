@@ -38,7 +38,7 @@
 # #Here they are equal
 # Return.cumulative(managers)  #Baseline
 # last(managersL-1) #This function
-
+#' @export
 Level.calculate <-
   function(R, seedValue = NULL, initial = TRUE)
   { # @author Erol Biceroglu
